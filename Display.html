@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Display Property</title>
+		<meta charset="UTF-8">
+		<style>
+			* {
+				font-family: tahoma;
+			}
+			span{
+				background-color: rgba(255,200,0,0.5);
+				width: 100px;
+				height: 100px;
+				text-align: center;
+				padding: 10px;
+				border: 1px solid;
+			}
+			span.inline{
+				display: inline;
+			}
+			span.block{
+				display: block;
+			}
+			span.inline-block{
+				display: inline-block;
+			}
+			
+			div.flex-container{
+				background-color: aqua;
+				display: flex;
+				flex-wrap: wrap;
+				height: 200px;
+				padding: 11px;
+				justify-content: center;
+			}
+			div.flex-item{
+				background-color: azure;
+				width: 100px;
+				height: 100px;
+				text-align: center;
+				margin: 10px;
+				display: flex;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="header">
+			<h1>Display Property</h1>
+		</div>
+		<h2>Display : inline</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+			when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+			It has survived not only five centuries, but also the leap into electronic typesetting, 
+			remaining essentially unchanged. kita mempunyai 2 komponen <span class="inline">Box 1</span> <span class="inline">Box 2</span>,
+			box ini akan mengikuti kelakuan dari display.</p>
+		<h2>Display : block</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+			when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+			It has survived not only five centuries, but also the leap into electronic typesetting, 
+			remaining essentially unchanged. kita mempunyai 2 komponen <span class="block">Box 1</span> <span class="block">Box 2</span>,
+			box ini akan mengikuti kelakuan dari display.</p>
+		<h2>Display : inline-block</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+			when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+			It has survived not only five centuries, but also the leap into electronic typesetting, 
+			remaining essentially unchanged. kita mempunyai 2 komponen <span class="inline-block">Box 1</span> <span class="inline-block">Box 2</span>,
+			box ini akan mengikuti kelakuan dari display.</p>
+		<h2>Display : flex</h2>
+			<div class="flex-container">
+				<div class="flex-item">Box</div>
+				<div class="flex-item">Box</div>
+				<div class="flex-item">Box</div>
+				<div class="flex-item">Box</div>
+				<div class="flex-item">Box</div>
+				<div class="flex-item">Box</div>
+			</div>
+		<hr>
+	</body>
+</html>

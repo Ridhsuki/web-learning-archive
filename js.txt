@@ -1,0 +1,15 @@
+data.js
+
+console.log('Nama ');
+panggil ke index.html 
+<script src='data.js' type='text/javascript'/> diatas penutup </body>
+
+Lets Do it
+const namaSaya = "Basuki Ridho";
+let usia = 18;
+console.log(namaSaya);
+console.log(usia);
+
+console.log(`nama saya ${nama} dan usia saya ${usia} tahun`)
+console.log(`nama saya adalah`, nama)
+ngerapiin alt shift s / ctrl shift p, format dokumen

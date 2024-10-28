@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Box with CSS</title>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/x-icon" href="/Img/smk.png">
+		<style>
+			div.box1{
+				height: 150px;
+				width: 100px;
+				background-color: #bbbbaa;
+			}
+			div.box1 p{
+				hwight: 75%;
+				width: 75%;
+				background-color: pink;
+			}
+			
+			.box2{
+				height: 300px;
+				width: 300px;
+				background-color: aqua;
+			}
+			.box2 p{
+				height: 75%;
+				width; 75%;
+				background-color: #efefef;
+			}
+			.box2 h2{
+				background-color: red;
+			}
+			
+			/* Ukuran Minimum dan Maximum Box */
+			td{
+				background-color: aqua;
+			}
+			td.deskripsi{
+				min-width: 450px;
+				max-width: 500px;
+				background-color: orange;
+			}
+			
+			/* Overflow */
+			h2,h3{
+				font-family: Arial;
+				color: dodgerblue;
+			}
+			p.satu{
+				height: 100px;
+				width; 200px;
+				overflow: hidden;
+			}
+			p.dua{
+				height: 100px;
+				width: 200px;
+				overflow: scroll;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="box1">
+			<p>Percobaan Box dan membuat Box dengan CSS</p>
+		</div>
+		<div class="box2">
+			<h2>Heading</h2>
+			<p>Pada tanggal 1 September 2023 siswa <abbr title="Sekolah Menengah Kejuruan Islam Terpadu">SMKIT</abbr> mulai PKL di tempat PKL nya masing-masing, 
+			nah gua <b>Basuki, Faisal ,Aziz</b> satu kelompok di toko komputer yang namanya <i>Mascom</i>,
+			di hari pertama kita ketemu 3 orang temen PKL dari <u>SMK Adi Soemarmo</u>, 
+			nama mereka <b>Dino, Ahmad dan Putra</b>,mereka sudah 2 bulan duluan dari pada kita.</p>
+		</div>
+		<table>
+			<td>1</td>
+			<td class="deskripsi">KOLOM 2, Deskripsi nomor 1, akan berbeda kolom, kita panjangin biar pindah baris</td>
+			<td>KOLOM 3</td>
+		</table>
+		<div class="box3">
+			<h2>Judul</h2>
+			<p class="satu">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			
+			<h3>Sub Judul</h3>
+			<p class="dua">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</div>
+	</body>
+</html>

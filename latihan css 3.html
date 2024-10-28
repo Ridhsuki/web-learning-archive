@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan css 3</title>
+		<style>
+			.box1 {
+				heigh: 100px;
+				width: 100px;
+				background-color: #bbbbaa;
+			}
+			div.box1 p{
+				height: 50%;
+				width: 50%;
+				background-color: bisque;
+			}
+			.box2 {
+				height: 200px;
+				width: 400px;
+				background-color: aqua;
+			}
+			div.box2 p {
+				height: 50%;
+				background-color: blue;
+			}
+			div.box2 h2 {
+				width: 50%;
+				background-color: white;
+			}
+			/*Maksimum & minimum*/
+			td {
+				background-color: cadetblue;
+			}
+			td.deskripsi {
+				min-width: 450px;
+				max-width: 500px;
+				background-color: orange;
+			}
+			h2,h3 {
+				font-family: Arial;
+				color: dodgerblue;
+			}
+			p.satu {
+				height: 100px;
+				width: 200px;
+				overflow: hidden;
+			}
+			p.dua {
+				height: 100px;
+				width: 200px;
+				overflow: scroll;
+			}
+			
+			div.box4 {
+				width: fit-content;
+				height: fit-content;
+				background-color: gainsboro;
+				font-size: 30px;
+				
+				margin-top: 100px;
+				margin-bottom: 100px;
+				margin-left: 100px;
+				
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+				
+				border: 5px groove black;
+			}
+			p.hello b{
+				font-family: Arial;
+				font-weight: bold;
+				background-color: black;
+				color: white;
+				
+				border: 4px solid papayawhip;
+				
+				
+			}
+			p.hello {
+				background-color: coral;
+				width: fit-content;
+				
+				padding-top: 20px;
+				padding-bottom: 20px;
+				padding-right: 20px;
+				padding-left: 20px;
+				
+				margin-bottom: 10px;
+				margin-top: 10px;
+				
+				border: 4px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="box1">
+			<p>
+				percobaan tentang box ddan cara buat box dengan css
+			</p>
+		</div>
+		<div class="box2">
+			<h2>Judul</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor arcu quis mauris euismod, sed volutpat purus cursus. In molestie non sapien id faucibus. Proin at diam vel leo placerat sagittis. Ut fermentum sit amet nunc sit amet dignissim. In in rhoncus ex. Duis feugiat auctor turpis. Donec at est nec augue consequat rutrum. Suspendisse sollicitudin nibh pharetra sem molestie, et bibendum mi tempor. Praesent justo mauris, fermentum a pulvinar in, tincidunt vitae tellus. Integer sed sodales libero. Quisque leo tellus, interdum in eros ac</p>
+		</div><br><br>
+		<table>
+			<td>1</td>
+			<td class="deskripsi">ini adalah kolom nomor satu, ini akan berbeda kolom, kita buat panjang supaya pindah baris</td>
+			<td>3</td>
+		</table>
+		
+		<div class="box3">
+			<h2>Judul</h2>
+			<p class="satu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor arcu quis mauris euismod, sed volutpat purus cursus. In molestie non sapien id faucibus. Proin at diam vel leo placerat sagittis. Ut fermentum sit amet nunc sit amet dignissim. In in rhoncus ex. Duis feugiat auctor turpis. Donec at est nec augue consequat rutrum. Suspendisse sollicitudin nibh pharetra sem molestie, et bibendum mi tempor. Praesent justo mauris, fermentum a pulvinar in, tincidunt vitae tellus. Integer sed sodales libero.</p>
+			<h3>Sub Judul</h3>
+			<p class="dua">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor arcu quis mauris euismod, sed volutpat purus cursus. In molestie non sapien id faucibus. Proin at diam vel leo placerat sagittis. Ut fermentum sit amet nunc sit amet dignissim. In in rhoncus ex. Duis feugiat auctor turpis. Donec at est nec augue consequat rutrum. Suspendisse sollicitudin nibh pharetra sem molestie, et bibendum mi tempor. Praesent justo mauris, fermentum a pulvinar in, tincidunt vitae tellus. Integer sed sodales libero.</p>
+		</div>
+		
+		<div class="box4">
+			<p class="hello"><b>Hello</b></p>
+			<p class="hello"><b>Hello</b></p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+div.header
+	<a class="header-title" href="ke situ sendiri"
+
+div.container
+	h3.konten-credit ditulis oleh
+		<span.penulis nama
+		tanggal <span.tanggal tanggal
+		
+		<p 3 di tuor sebelum nya
+
+2 html artikel 1 & 2
+div.judul p tutorial penngenalan teknologi web
+
+css
+.header
+	display: flex;
+	bg: cornflowerblue;
+	padding: 10px
+	justify-content: center;
+.header-title
+	color: consilk
+	fontsize: 3em;
+	font-weight: bold;
+	text-decoration: none;
+.header:hover
+	bg: cadetblue
+.judul
+	smain header
+	padding 5px
+	margin top 10px
+	font size 20px
+	
+.konten{
+	max qidth 500px
+	margin left right auto
+
+.content credit
+	fonsize 14 px
+	fonweight normal
+
+.penulis 
+	color crimson
+
+.tanggal
+	color olive
+
+.span
+	color blue
+
+
+div.header
+	<a class="header-title" href="ke situ sendiri"
+
+div.container
+	div.box-preview *2
+		div.box-preview-judul judul artikel1 dan 2
+		div.box-preview-credit ditulis oleh tanggal di 2 div
+		p dalam div 
+		a.more href ke artikel 1 dan 2  selngkapnya
+.container
+ border
+ ubah biar sampingan pake display
+ biar di tengah pake justify
+ kasih biar langsung ke bawah kalo di sempitin
+.box-preview
+ lebar 300
+ pisahkan 2 box nya 20px
+ bg di ganti antiquewhite
+ padding 10px
+.box-preview-judul
+ beasrin font 1,2 2m
+ tinggi in dikit biar ada batas nya 50px
+ tebalkan 
+.box-preview credit
+ ubah ke italic
+.box-preview:hover
+ bg efefef

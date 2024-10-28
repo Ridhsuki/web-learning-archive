@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>List Style</title>
+		<meta charset="UTF-8">
+		<style>
+			*{
+				font-family: Arial;
+			}
+			h2{
+				font-size: 25px;
+				color: crimson;
+			}
+			div.ordered-list-style{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			div.box-list-style{
+				background-color: cornsilk;
+				width: 500px;
+				height: 250px;
+				margin: 10px;
+				padding: 6px;
+			}
+			ol.decimal{
+				list-style-type: decimal;
+			}
+			ol.lower-roman{
+				list-style-type: lower-roman;
+			}
+			ol.upper-roman{
+				list-style-type: upper-roman;
+			}
+			ol.lower-latin{
+				list-style-type: lower-latin;
+			}
+			ol.upper-latin{
+				list-style-type: upper-latin;
+			}
+			ol.lower-alpha{
+				list-style-type: lower-alpha;
+			}
+			ul.list-panjang{
+				width: 401px;
+			}
+			ul li{
+				margin: 10px;
+			}
+			ul.inside{
+				list-style-position: inside;
+			}
+			ul.outside{
+				list-style-position: outside;
+			}
+			div.box-list-style-position{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			ul.list-singkat{
+				list-style: circle inside;
+			}
+			ol.list-singkat{
+				list-style: lower-greek inside;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>List Style</h1>
+		<div class="ordered-list-style">
+			<div class="box-list-style">
+				<h2>Balado {list-style-type: decimal;} -> normal</h2>
+				<ol class="decimal">
+					<li>tomat</li>
+					<li>Cabai Merah Besar</li>
+					<li>Bawang Merah</li>
+					<li>Bawang Putih</li>
+					<li>Gula</li>
+					<li>Garam</li>
+				</ol>
+			</div>
+			
+			<div class="box-list-style">
+				<h2>Balado {list-style-type: lower-roman;}</h2>
+				<ol class="lower-roman">
+					<li>tomat</li>
+					<li>Cabai Merah Besar</li>
+					<li>Bawang Merah</li>
+					<li>Bawang Putih</li>
+					<li>Gula</li>
+					<li>Garam</li>
+				</ol>
+			</div>
+			
+			<div class="box-list-style">
+				<h2>Balado {list-style-type: upper-roman;}</h2>
+				<ol class="upper-roman">
+					<li>tomat</li>
+					<li>Cabai Merah Besar</li>
+					<li>Bawang Merah</li>
+					<li>Bawang Putih</li>
+					<li>Gula</li>
+					<li>Garam</li>
+				</ol>
+			</div>
+			
+			<div class="box-list-style">
+				<h2>Balado {list-style-type: lower-latin;}</h2>
+				<ol class="lower-latin">
+					<li>tomat</li>
+					<li>Cabai Merah Besar</li>
+					<li>Bawang Merah</li>
+					<li>Bawang Putih</li>
+					<li>Gula</li>
+					<li>Garam</li>
+				</ol>
+			</div>
+			
+			<div class="box-list-style">
+				<h2>Balado {list-style-type: upper-latin;}</h2>
+				<ol class="upper-latin">
+					<li>tomat</li>
+					<li>Cabai Merah Besar</li>
+					<li>Bawang Merah</li>
+					<li>Bawang Putih</li>
+					<li>Gula</li>
+					<li>Garam</li>
+				</ol>
+			</div>
+			
+			<div class="box-list-style">
+				<h2>Balado {list-style-type: lower-alpha;}</h2>
+				<ol class="lower-alpha">
+					<li>tomat</li>
+					<li>Cabai Merah Besar</li>
+					<li>Bawang Merah</li>
+					<li>Bawang Putih</li>
+					<li>Gula</li>
+					<li>Garam</li>
+				</ol>
+			</div>
+		</div><hr>
+		
+		<h2>List Panjang</h2>
+		<div class="unordered-list box-list-style-position">
+			<div class="inside-list">
+				<h3>inside-list</h3>
+				<ul class="list-panjang inside">
+					<li>Lorem Ipsum is simply dummy text of the <span>printing and typesetting industry.</span> 
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+					It has survived not only five centuries, but also the leap into electronic typesetting, 
+					remaining essentially unchanged.</li>
+					<li>Lorem Ipsum is simply dummy text of the <span>printing and typesetting industry.</span> 
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+					It has survived not only five centuries, but also the leap into electronic typesetting, 
+					remaining essentially unchanged.</li>
+				</ul>
+			</div>
+			<div class="outside-list">
+				<h3>outside-list</h3>
+				<ul class="list-panjang outside">
+					<li>Lorem Ipsum is simply dummy text of the <span>printing and typesetting industry.</span> 
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+					It has survived not only five centuries, but also the leap into electronic typesetting, 
+					remaining essentially unchanged.</li>
+					<li>Lorem Ipsum is simply dummy text of the <span>printing and typesetting industry.</span> 
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+					It has survived not only five centuries, but also the leap into electronic typesetting, 
+					remaining essentially unchanged.</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div>
+			<h2><abbr title="list-style: circle inside; lower-greek inside">List singkat</abbr></h2>
+			<ul class="list-singkat">
+				<li>Lorem Ipsum is simply dummy text of the <span>printing and typesetting industry.</span> 
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+					It has survived not only five centuries, but also the leap into electronic typesetting, 
+					remaining essentially unchanged.</li>
+			</ul>
+			<ol class="list-singkat">
+				<li>Lorem Ipsum is simply dummy text of the <span>printing and typesetting industry.</span> 
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+					It has survived not only five centuries, but also the leap into electronic typesetting, 
+					remaining essentially unchanged.</li>
+			</ol>
+		</div>
+	</body>
+</html>

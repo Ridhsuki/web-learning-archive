@@ -1,0 +1,18 @@
+div{
+	height:100%;
+	width:100%;
+	background-color:#bbbbaa;
+}
+
+.box1 p{
+	height:75%;
+	background-color:cyan;
+}
+
+.box2 h2{
+	width:75%;
+	height:75%;
+	background-color:red;
+}
+
+

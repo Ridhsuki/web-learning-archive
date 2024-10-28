@@ -1,0 +1,45 @@
+*{
+	font-family:Tahoma;
+	text-align:justify;
+}
+body{
+	backround-color:Azure;
+}
+h1{
+	font-family:Times new roman;
+	font-size:Big;
+	background-color:red;
+	padding:12px;
+	text-align:center;
+}
+h2.artikel{
+	background-color:black;
+	color:beige;
+	padding:10px;
+}
+h2{
+	font-family:Arial;
+}
+h3{
+	font-size:12px;
+	padding:10px;
+}
+span{
+	color:blue;
+}
+h3>span{
+	color:crimson;
+	padding:inherit;
+}
+h3.credit{
+	background-color:rgb(250,25,0,0.2);
+	padding:10px;
+}
+h3~p{
+	color:rgb(115,115,115);
+}
+p.copyright{
+	color:grey;
+	font-size:15px;
+	font-family:Monospace;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Border</title>
+		<style>
+			*{
+				font-family: Arial;
+			}
+			h1{
+				border: ;
+				border-bottom-width: 4px;
+			}
+			#atas-solid{
+				border: 2px;
+				border-top-style: solid;
+			}
+			#bawah-solid{
+				border: 2px;
+				border-bottom-style: solid;
+			}
+			#kiri-solid{
+				border: 2px;
+				border-left-style: solid;
+			}
+			#kanan-solid{
+				border: 2px;
+				border-right-style: solid;
+			}
+			#dotted{
+				border: 2px dotted crimson;
+				width: fit-content;
+				height: fit-content;
+			}
+			#double{
+				border: 5px double crimson;
+				width: fit-content;
+				height: fit-content;
+			}
+			#dashed{
+				border: 2px dashed crimson;				
+				width: fit-content;
+				height: fit-content;
+			}
+			#groove{
+				border: 5px groove crimson;
+				width: fit-content;
+				height: fit-content;
+			}
+			
+			/*Border Size*/
+			#border-1{
+				border-style: solid;
+				border-width: 20px;
+			}
+			#border-2{
+				border-style: solid;
+				border-width: 20px 5px;
+			}
+			#border-3{
+				border-style: solid;
+				border-width: 5px 10px 15px 20px;
+			}
+			
+			/*CSS Padding*/
+			h2{
+				text-align: center;
+				width: 150px;
+				height: 100px;
+				font-size: 20px;
+				text-decoration: none;
+			}
+			acronym{
+				text-decoration: none;
+			}
+			.border{
+				border: 1px solid;
+			}
+			.padding-1{
+				padding: 20px;
+				background-color: cyan;
+			}
+			.padding-2{
+				padding: 20px 50px;
+			}
+			.padding-3{
+				padding: 5px 50px 20px;
+			}
+			.padding-4{
+				padding: 5px 10px 15px 20px;
+			}
+			
+			.margin{
+				width: fit-content;
+				height: fit-content;
+				border: 5px solid black;
+				padding: 20px;
+			}
+			.margin1 {
+				margin: 5px;
+			}
+			.margin2 {
+				margin: 10px 20px;
+				/*atas-bawah 10, kiri-kanan 20*/
+			}
+			.margin3 {
+				margin: 10px 20px 50px;
+			}
+			.margin4 {
+				margin: 10px 20px 40px 100px;
+			}
+			.marginauto{
+				margin: auto;
+			}
+		</style>
+	</head>
+	<body>
+	 <h2>border-style</h2>
+	 <p id="atas-solid">border: 2px;<br>border-top-style: solid;</p>
+	 <p id="bawah-solid">border: 2px<br>border-bottom-style: solid;</p>
+	 <p id="kiri-solid">border: 2px;<br>border-left-style: solid;</p>
+	 <p id="kanan-solid">border: 2px<br>border-right-style: solid;</p>
+	 <p id="dotted">border-style: dotted;</p>
+	 <p id="double">border-style: double;</p>
+	 <p id="dashed">border-style: dashed;</p>
+	 <p id="groove">border-style: groove;</p>
+	 <p>PR <strong>Cari style border Lain !!!</strong></p>
+	 
+	 <h2>Border Size</h2>
+	 <p>Border size mencakup semua sisi<br><span id="border-1">border-size: 20px;</span></p>
+	 <p>Border mengatur Atas & Bawah, Kiri & Kanan<br><span id="border-2">border-size: 20px 5px;</span></p>
+	 <p>Border mengatur Atas, Kanan, Bawah, Kiri<br><span id="border-3">border-size: 5px 10px 15px 20px;</span></p><hr>
+	 
+	 <h1>CSS Padding</h1>
+	 <h2 class="border padding-1"><acronym title="Mencakup semua sisi">padding: 20px;</acronym></h2>
+	 <h2 class="border padding-2"><acronym title="atas-bawah & kiri-kanan">padding: 20px 50px;</acronym></h2>
+	 <h2 class="border padding-3"><acronym title="atas, kiri-kanan, bawah">padding: 5px 50px 20px;</acronym></h2>
+	 <h2 class="border padding-4"><acronym title="atas, kanan, bawah, kiri">padding: 5px 10px 15px 20px;</acronym></h2>
+	 
+	 <h1><acronym title="coba inspect dan lihat perbedaan nya di computed">CSS Margin</acronym></h1>
+	 <h2 class="margin margin1">margin: 5px;</h2>
+	 <h2 class="margin margin2">margin: 10px 20px;</h2>
+	 <h2 class="margin margin3">margin: 10px 20px 50px</h2>
+	 <h2 class="margin margin4">margin: 10px 20px 40px 100px</h2>
+	 <h2 class="margin marginauto">margin: 10px auto;</h2>
+	
+	</body>
+</html>

@@ -1,0 +1,488 @@
+#CSS{
+	font-family:Popins,arial;
+	padding:10px;
+	color:red;
+	background-color:cyan;
+	text-align:center;
+	font-size:90px;
+}
+
+summary {
+	font-size: 30px;
+	font-family: arial;
+
+}
+.welcome{
+	font-family:Times new roman;
+	font-size:20px;
+	text-align:center;
+	background-color:pink;
+	
+}
+
+#jenis{
+	text-align:center;
+}
+.color{
+	background-color:#efefef;
+}
+/*Color By Name*/
+#colorbyname1{
+	color:red;
+}
+#colorbyname2{
+	color:green;
+}
+#colorbyname3{
+	color:blue;
+}
+#colorbyname4{
+	color:black;
+}
+
+/*Color by Hex*/
+#colorbyhex1{
+	color:#FFFFFF;
+}
+#colorbyhex2{
+	color:#FF0000;
+}
+#colorbyhex3{
+	color:#00FF00;
+}
+#colorbyhex4{
+	color:#0000FF;
+}
+#colorbyhex5{
+	color:#000000;
+}
+
+/*RGB Color*/
+#rgbcodewhite{
+	color:rgb(255,255,255)
+}
+#rgbcode1{
+	color:rgb(255,0,0)
+}
+#rgbcode2{
+	color:rgb(0,255,0)
+}
+#rgbcode3{
+	color:rgb(0,0,255)
+}
+
+/*background-color*/
+#colorname{
+	background-color:salmon;
+}
+#hexcode{
+	background-color:skyblue;
+}
+#rgbvalue{
+	background-color:thistle;
+}
+
+/*RGBA &HSLA*/
+#rgba1{
+	Background-color:rgba(255,0,119,1);
+}
+#rgba05{
+	Background-color:rgba(255,0,199,0.5);
+}
+#rgba0{
+	Background-color:rgba(255,0,119,0);
+}
+/*HSL*/
+/*Hue*/
+#hue1{
+	Background-color:hsla(100, 100%, 50%);
+}
+#hue2{
+	Background-color:hsla(250, 100%, 50%);
+}
+#hue3{
+	Background-color:hsla(360, 100%, 50%);
+}
+
+/*Saturation*/
+#saturation1{
+	Background-color:hsla(250, 0%, 50%);
+}
+#saturation2{
+	Background-color:hsla(250, 50%, 50%);
+}
+#saturation3{
+	Background-color:hsla(250, 100%, 50%);
+}
+
+/*Lightness*/
+#lightness1{
+	Background-color:hsla(250, 100%, 0%);
+	}
+#lightness2{
+	Background-color:hsla(250, 100%, 50%);
+	}
+#lightness3{
+	Background-color:hsla(250, 100%, 100%);
+	}
+	
+/*CSS Text*/
+.csstext{
+	Background-color:;
+}
+
+/*Font family*/
+#Arial{
+	font-family:Arial;
+}
+#georgia{
+	font-family:georgia;
+}
+#verdana{
+	font-family:verdana;
+}
+#segoe{
+	font-family:'Segoe UI';
+}
+#times{
+	font-family:'Times new roman';
+}
+#sans{
+	font-family:sans-serif, arial;
+}
+
+/*Font Size*/
+#xxlarge{
+	font-size:xx-large;
+}
+#large{
+	font-size:large;
+}
+#small{
+	font-size:small;
+}
+#xxsmall{
+	font-size:xx-small;
+}
+#sizebypx1{
+	font-size: 1px;
+}
+#sizebypx2{
+	font-size: 10px;
+}
+#sizebypx3{
+	font-size: 20px;
+}
+sizebypx4{
+	font-size: 30px;
+}
+#sizebypx5{
+	font-size: 40px;
+}
+#sizebypersen1{
+	font-size: 10%;
+}
+#sizebypersen2{
+	font-size: 50%;
+}
+#sizebypersen3{
+	font-size: 100%;
+}
+#sizebyem1{
+	font-size: 1em;
+}
+#sizebyem2{
+	font-size: 0.5em;
+}
+#sizebyem3{
+	font-size: 1.5em;
+}
+
+/**Styling Text**/
+
+#fontweightnormal {
+	font-weight: normal;
+	margin-bottom: -19px;
+}
+#fontweightbold{
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+#fontweightitalic{
+	font-style: italic;
+}
+#textdecorationnone{
+	text-decoration: none;
+}
+#textdecorationnone.hover{
+	color: green;
+}
+#textdecorationnone.active{
+	color: yellow;
+}
+#textdecorationunderline{
+	text-decoration: underline;
+}
+		/**Transformation**/
+#uppercase{
+	text-transform: uppercase;
+}
+#capitalize{
+	text-transform: capitalize;
+}
+#lowercase{
+	text-transform: lowercase;
+}
+
+		/**align**/
+#center{
+	text-align: center;
+}
+
+#shadow{
+	text-align: center;
+	color: brown;
+	text-shadow: 5px 9px 6px black;/**kiri kanan, atas bawah, kepudaran, warna**/
+	text-decoration: none;
+	word-spacing: 0.5em;
+	letter-spacing: 5px;
+}
+#shadow:hover{
+	color: deeppink;
+}
+#shadow:active{
+	color: white;
+}
+#google:hover{
+	color: red;
+}
+#google:active{
+	color: green;
+}
+#space1{
+	word-spacing: 0.5em;
+}
+#space2{
+	word-spacing: 1em;
+}
+
+/*Hover Active Visited*/
+			h1.hover-active{
+				text-align: center;
+			}
+			.tes:hover{
+				color: yellow;
+			}
+			.tes:active{
+				color: white;
+			}
+			.tes:visited{
+				color: rgba(255, 0, 0, 0.5)
+			}
+			table.table-hover{
+				border: 1px solid #000000;
+			}
+			
+/*Border Padding Margin*/
+			h1.Border-Padding-Margin{
+				border: ;
+				border-bottom-width: 4px;
+			}
+			#atas-solid{
+				border: 2px;
+				border-top-style: solid;
+				width: fit-content;
+				height: fit-content;
+			}
+			#bawah-solid{
+				border: 2px;
+				border-bottom-style: solid;
+				width: fit-content;
+				height: fit-content;				
+			}
+			#kiri-solid{
+				border: 2px;
+				border-left-style: solid;
+				width: fit-content;
+				height: fit-content;				
+			}
+			#kanan-solid{
+				border: 2px;
+				border-right-style: solid;
+				width: fit-content;
+				height: fit-content;				
+			}
+			#dotted{
+				border: 2px dotted crimson;
+				width: fit-content;
+				height: fit-content;
+			}
+			#double{
+				border: 5px double crimson;
+				width: fit-content;
+				height: fit-content;
+			}
+			#dashed{
+				border: 2px dashed crimson;				
+				width: fit-content;
+				height: fit-content;
+			}
+			#groove{
+				border: 5px groove crimson;
+				width: fit-content;
+				height: fit-content;
+			}
+			
+			/*Border Size*/
+			#border-1{
+				border-style: solid;
+				border-width: 20px;
+				margin: 300px;
+			}
+			#border-2{
+				border-style: solid;
+				border-width: 20px 5px;
+				margin: 500px;
+			}
+			#border-3{
+				border-style: solid;
+				border-width: 5px 10px 15px 20px;
+				margin: 350px;
+			}
+			
+			/*CSS Padding*/
+			h2.Border-Padding-Margin{
+				text-align: center;
+				width: 150px;
+				height: 100px;
+				font-size: ;
+				text-decoration: none;
+			}
+			acronym{
+				text-decoration: none;
+			}
+			.border{
+				border: 1px solid;
+			}
+			.padding-1{
+				padding: 20px;
+				background-color: cyan;
+			}
+			.padding-2{
+				padding: 20px 50px;
+			}
+			.padding-3{
+				padding: 5px 50px 20px;
+			}
+			.padding-4{
+				padding: 5px 10px 15px 20px;
+			}
+			
+			.margin{
+				width: fit-content;
+				height: fit-content;
+				border: 5px solid black;
+				padding: 20px;
+			}
+			.margin1 {
+				margin: 5px;
+			}
+			.margin2 {
+				margin: 10px 20px;
+				/*atas-bawah 10, kiri-kanan 20*/
+			}
+			.margin3 {
+				margin: 10px 20px 50px;
+			}
+			.margin4 {
+				margin: 10px 20px 40px 100px;
+			}
+			.marginauto{
+				margin: auto;
+			}
+			
+			div.box4 {
+				width: fit-content;
+				height: fit-content;
+				background-color: gainsboro;
+				font-size: 30px;
+				
+				margin-top: 100px;
+				margin-bottom: 100px;
+				margin-left: 100px;
+				
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+				
+				border: 5px groove black;
+			}
+			p.hello b{
+				font-family: Arial;
+				font-weight: bold;
+				background-color: black;
+				color: white;
+				
+				border: 4px solid papayawhip;
+				
+				
+			}
+			p.hello {
+				background-color: coral;
+				width: fit-content;
+				
+				padding-top: 20px;
+				padding-bottom: 20px;
+				padding-right: 20px;
+				padding-left: 20px;
+				
+				margin-bottom: 10px;
+				margin-top: 10px;
+				
+				border: 4px solid red;
+			}
+/*BOX with CSS*/
+			.box1 {
+				heigh: 100px;
+				width: 100px;
+				background-color: #bbbbaa;
+			}
+			div.box1 p{
+				height: 50%;
+				width: 50%;
+				background-color: bisque;
+			}
+			.box2 {
+				height: 200px;
+				width: 400px;
+				background-color: aqua;
+			}
+			div.box2 p {
+				height: 50%;
+				background-color: blue;
+			}
+			div.box2 h2 {
+				width: 50%;
+				background-color: white;
+			}
+			/*Maksimum & minimum*/
+			td.max-min {
+				background-color: cadetblue;
+			}
+			td.deskripsi {
+				min-width: 450px;
+				max-width: 500px;
+				background-color: orange;
+			}
+			p.satu {
+				height: 100px;
+				width: 200px;
+				overflow: hidden;
+			}
+			p.dua {
+				height: 100px;
+				width: 200px;
+				overflow: scroll;
+			}

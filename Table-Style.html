@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table-Style</title>
+		<meta charset="UTF-8">
+		<Style>
+		/*Table-Style*/
+			body{
+				font-family: verdana;
+				color: ;
+			}
+			h1, h2{
+				text-transform: capitalize;
+				text-align: center;
+			}
+			table{
+				width: 600px;
+				/*border-spacing: 10px;*/
+				border-collapse: collapse;
+			}
+			th,td{
+				padding: 7px 10px 10px 10px;
+			}
+			th{
+				border-top: 1px solid darkorange;
+				border-bottom: 2px solid;
+				text-align: left;
+				background-color: crimson;
+			}
+			tr:nth-child(even){
+				background-color: #efefef;
+			}
+			tr:hover{
+				background-color: #9d8854;
+			}
+			
+		/*Styling Form*/
+			input{
+				font-size: 120%;
+				background-color: #efefef;
+				color: darkslategray;
+				border: 1px solid #bdbdbd;
+				border-radius: 5px;
+				padding: 5px 5px 5px 35px;
+				display: block;
+				margin-bottom: 10px;
+				
+				background-repeat: no-repeat;
+				background-size: 20px;
+				background-position: 8px;
+			}
+			input:focus{
+				background-color: #ffffff;
+			}
+			input#email{
+				background-image: url(img/email.png);
+			}
+			input#ig{
+				background-image: url(img/ig.png);
+			}
+			input#web{
+				background-image: url(img/web.png);
+			}
+			input#submit{
+				color: #aaaaaa;
+				background-color: darkslategray;
+				text-shadow: 0px 0xpx 15px;
+				padding: 5px;
+				cursor: pointer;
+			}
+			input#submit:hover{
+				color: #eaeaea;
+				background-color: crimson;
+				text-shadow: 0px 0px 15px red;
+			}
+			input#submit:active{
+				color: #eaeaea;
+				background-color: red;
+			}
+			.container-styling_form{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.kotakan-login{
+				border: 2px solid;
+				padding: 26px;	
+			}
+			
+			/*css-image*/
+			div.css-image-div {
+				height: 300px;
+				margin: 11px;
+				border: 1px solid;
+				font-family: Arial;
+			}
+			img.large {
+				width: 300px;
+				height: 300px;
+			}
+			img.medium {
+				width: 100px;
+				height: 100px;
+			}
+			img.align-right {
+				float: right;
+				margin-left: 10px;
+			}
+			img.align-left {
+				float: left;
+				margin-right: 10px;
+			}
+			img.small {
+				width: 50px;
+				height: 50px;
+			}
+			img.align-center {
+				display: block;
+				margin: 0px auto;
+			}
+			div.css-image-div > img,p {
+				padding: 6px;
+			}
+		</Style>
+	</head>
+	<body>
+		<div class="table-style">
+			<h1>daftar siswa</h1>
+			<table>
+				<th>Nomor Absen</th>
+				<th>Nama Siswa</th>
+				<th>Kelas</th>
+				<tr>
+					<td>1</td>
+					<td>Ahmad Ardhiansyahputra Hidayat</td>
+					<td>XII A</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Ahmad Farros Mafakhir</td>
+					<td>XII A</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Arif Abdullah</td>
+					<td>XII A</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Aziz Nur Rohman</td>
+					<td>XII A</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Basuki Ridho Al Ghifari</td>
+					<td>XII A</td>
+				</tr>
+			</table>
+		</div><hr>
+		
+		<div class="styling-form">
+			<h1>Form with CSS</h1>
+			<div class="container-styling_form">
+				<div class="kotakan-login">
+					<h2>login</h2>
+					<form>
+						<label for="email"></label>
+						<input id="email" type="email">
+						<label for="ig"></label>
+						<input id="ig" type="text">
+						<label for="web"></label>
+						<input id="web" type=""text>
+						<input id="submit" type="submit">
+					</form>
+				</div>
+			</div>
+		</div><hr>
+		
+		<div class="css-image">
+			<h1>Image-Style</h1>
+			<div class="css-image-div">
+				<img class="large align-right" src="https://e0.pxfuel.com/wallpapers/988/610/desktop-wallpaper-anime-icon-majo-no-tabitabi-new-october-season-elaina-seni-anime-seni-jepang-seni.jpg" alt="gambar" title="IHH WIBU!!!!">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+				when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+				It has survived not only five centuries, but also the leap into electronic typesetting, 
+				remaining essentially unchanged.</p>
+			</div>
+			<div class="css-image-div">
+				<img class="medium align-left" src="https://e0.pxfuel.com/wallpapers/988/610/desktop-wallpaper-anime-icon-majo-no-tabitabi-new-october-season-elaina-seni-anime-seni-jepang-seni.jpg" alt="gambar" title="IHH WIBU!!!!">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+				when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+				It has survived not only five centuries, but also the leap into electronic typesetting, 
+				remaining essentially unchanged.</p>
+			</div>
+			<div class="css-image-div">
+				<img class="small align-center" src="https://e0.pxfuel.com/wallpapers/988/610/desktop-wallpaper-anime-icon-majo-no-tabitabi-new-october-season-elaina-seni-anime-seni-jepang-seni.jpg" alt="gambar" title="IHH WIBU!!!!">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+				when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+				It has survived not only five centuries, but also the leap into electronic typesetting, 
+				remaining essentially unchanged.</p>
+			</div>
+			
+		</div>
+	</body>
+</html>
