@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEK</title>
+</head>
+<body>
+    <input type="number" max="1" id="input1">
+    <button>+</button>
+    <input type="number" max="1" id="input2">
+    <button onclick="showResult()">=</button>
+    <p id="result"></p>
+
+    <script>
+        function operasi(angka1, angka2) {
+            return angka1 + angka2; // Mengembalikan hasil penjumlahan
+        }
+
+        function showResult() {
+            const angka1 = parseFloat(document.getElementById("input1").value); // Mengubah nilai input menjadi angka
+            const angka2 = parseFloat(document.getElementById("input2").value); // Mengubah nilai input menjadi angka
+            
+            const hasil = operasi(angka1, angka2); // Memanggil fungsi operasi untuk menjumlahkan
+            document.getElementById("result").textContent = "Hasil: " + hasil; // Menampilkan hasil
+        }
+    </script>
+</body>
+</html>

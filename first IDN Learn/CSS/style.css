@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script&family=Sankofa+Display&display=swap');
+
+.s1 {
+    background-color: aquamarine;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.s1:hover, .s2:hover {
+    background-color: pink;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.s2 {
+    margin: 100px;
+    padding: 20px;
+    background-color: tomato;
+    border-radius: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: yellow;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+marquee img {
+    transition: transform .3s ease;
+}
+
+marquee img:hover {
+    transform: scale(2);
+}
+
+/* Responsive */
+*{
+    font-family: "Sankofa Display", sans-serif;
+    font-size: larger;
+}
+
+.res-box {
+    background-color: tomato;
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+div {
+    padding-top: 10px;
+}
+
+.lg, .md, .xl, .xxl {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .res-box {
+        background-color: aquamarine;
+    }
+    .sm .md, .xl, .xxl {
+        display: none;
+    }
+    .lg {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .res-box {
+        background-color: burlywood;
+    }
+    .size {
+        display: none;
+    }
+    .md {
+        display: block;
+    }
+}
+
+@media (min-width: 1280px) {
+    .res-box {
+        background-color: darkseagreen;
+    }
+    .size {
+        display: none;
+    }
+    .xl {
+        display: block;
+    }
+}
+
+@media (min-width: 1536px) {
+    .res-box {
+        background-color: crimson;
+    }
+    .size {
+        display: none;
+    }
+    .xxl {
+        display: block;
+    }
+}

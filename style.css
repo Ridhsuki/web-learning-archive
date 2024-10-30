@@ -1,0 +1,215 @@
+/* CSS untuk halaman arsip belajar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+  }
+  
+  /* Animasi Fade-in untuk halaman */
+  body {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Header */
+  header {
+    background: #ff6b6b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.8s ease;
+    position: relative;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  header .menu-toggle {
+    display: none;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    margin-top: 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffd700;
+  }
+
+  /* Responsif untuk Nav */
+  @media (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #ff6b6b;
+        border-radius: 0 0 10px 10px;
+        padding: 10px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-20px);
+        transition: all 0.4s ease;
+      }
+    
+      header nav ul.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+    
+      /* Styling for Toggle Button */
+      header .menu-toggle {
+        display: block;
+        font-size: 1.5em;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 15px;
+      }
+  }
+
+  /* Main content */
+  main {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  article h2 {
+    color: #ff6b6b;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .projects, .projects2 {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .projects:hover, .projects2:hover {
+    transform: scale(1.02);
+  }
+  
+  .projects ol, .projects2 ol {
+    list-style: decimal;
+    padding-left: 20px;
+  }
+  
+  .projects li, .projects2 li {
+    margin: 10px 0;
+  }
+  
+  .projects li a, .projects2 li a {
+    color: #ff6b6b;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .projects li a::before, .projects2 li a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff4757;
+    transition: width 0.3s ease;
+  }
+  
+  .projects li a:hover::before, .projects2 li a:hover::before {
+    width: 100%;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1.5s ease;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ffd700;
+  }
+  
+  ::selection {
+    color: #fff;
+    background-color: #ff6b6b;
+  }
+
+  /* Keyframes untuk Animasi */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    .container {
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        background-color: bisque;
+        .box {
+            background-color: teal;
+            color: #fff;
+            width: 20%;
+            text-align: center;
+            padding: 20px;
+            &:hover {
+                background-color: black;
+                transition: .3s;
+                border-radius: 20px 0 20px 0;
+            } 
+        }
+        @media (max-width: 700px) {
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+    .line {
+        background-color: black;
+    }
+}

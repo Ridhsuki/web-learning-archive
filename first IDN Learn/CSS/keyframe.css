@@ -1,0 +1,30 @@
+.box {
+    width: 200px;
+    height: 200px;
+    transition: .9s ease-in-out all;
+    background-color: tomato;
+}
+
+.box.satu:hover {
+    width: 500px;
+}
+
+.dua {
+    animation: animasikedua .9s ease infinite alternate forwards;
+}
+
+@keyframes animasikedua {
+    0% {
+        width: 200px;
+        background-color: red;
+    }
+    50% {
+        height: 500px;
+        background-color: green;
+    }
+    100% {
+        width: 500px;
+        height: 500px;
+        background-color: blue;
+    }
+}

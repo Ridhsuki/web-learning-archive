@@ -1,0 +1,16 @@
+http://1.bp.blogspot.com/-AfvX6YPYQe8/TyvxGp5syhI/AAAAAAAAEww/SUXM2lBtdjU/s1600/LOGO+KABUPATEN+KLATEN.png
+div.header
+	berisi logo dan judul dan tersambung ke link index
+div.nav
+	berisi ul dengan li $item ke laman lain	
+div.content
+	berisi 1 judul beranda kontak dafftar buku
+
+dalam style
+di headernya logo dan title nya harus berdampingan dan ditengah 
+mt mb auto
+link nya di modiv 24px bold
+
+dalam nav jadikan 3 linknya menjadi sampingan,berjarak
+kasih background dan tempelin ke haeder
+styling a nya dan cpykan ke lman lain
