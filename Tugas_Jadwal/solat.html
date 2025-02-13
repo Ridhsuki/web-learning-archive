@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Sholat Wajib</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        select,
+        button {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        /* button {
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+        }
+
+        button:hover {
+            box-shadow: 0 0 5px cyan, 00 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 00 200px cyan;
+        } */
+
+        #jadwalSolat {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .jadwal-items {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .jadwal-items:hover {
+            background-color: #efefef;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+        }
+
+        .no-select {
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body class="no-select">
+
+    <h1>Jadwal Shalat</h1>
+
+    <label for="selectCity">Pilih Kota</label>
+    <select id="selectCity">
+        <option value="" disabled selected>Pilih Kota</option>
+    </select>
+
+    <button onclick="getJadwalSolat()">Lihat Jadwal</button>
+
+    <div id="message">
+        <h2>Harap pilih kota terlebih dahulu!</h2>
+        <img src="https://png.pngtree.com/png-clipart/20220218/ourlarge/pngtree-masjid-png-png-image_4395687.png" alt="Mosque Image">
+    </div>
+
+    <div id="jadwalSolat"></div>
+
+    <script src="js/solat.js"></script>
+</body>
+
+</html>
