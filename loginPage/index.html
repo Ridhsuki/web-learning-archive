@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Suki Web</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body
+    class="h-screen bg-gradient-to-r from-purple-400 from-10% via-pink-500 via-30% to-90% to-red-500 flex justify-center">
+    <div class="bg-white w-80 h-96 rounded-lg pt-3 pb-96 px-9 mt-24 flex justify-center shadow-xl">
+        <form class="mt-1" onsubmit="return validationForm()">
+            <h1 class="text-2xl font-bold text-center mb-2">Sign In to your account</h1>
+            <div class="m-auto">
+                <div>
+                    <label class="font-semibold" for="email">Email Address</label>
+                    <input class="w-64 p-3 rounded-xl focus:bg-slate-50 border-2" type="text" id="email" name="email">
+                    <span id="emailError" class="text-sm text-red-500 hidden"></span>
+                </div>
+                <div>
+                    <label class="font-semibold" for="pw">Password</label>
+                    <input class="w-64 p-3 rounded-xl focus:bg-slate-50 border-2" type="password" id="pw" name="pw">
+                    <span id="pwError" class="text-sm text-red-500 hidden"></span>
+                </div>
+                <div class="my-3 ">
+                    <p class=" text-sm inline"><input type="checkbox"> Remember me</p>
+                    <a href="#" class="text-purple-600 hover:text-emerald-500 text-sm inline">Forgot your password?</a>
+                </div>
+                <button type="submit" class=" bg-purple-600 h-9 w-64 text-white hover:bg-purple-800 rounded-xl">Sign
+                    in</button>
+            </div>
+            <p class="text-center text-sm">Don't have an account?<a href="#" class="text-purple-600  hover:text-emerald-500"> Sign up</a></p> 
+        </form>
+    </div>
+
+    <script>
+        function validationForm(){
+            console.log("Cek")
+
+            let email = document.getElementById("email").value.trim()
+            console.log(email)
+            let pw = document.getElementById("pw").value
+            let emailError = document.getElementById("emailError")
+            let pwError = document.getElementById("pwError")
+
+            let valid = true
+            pwError.classList.add('hidden')
+
+            if(email === '') {
+                emailError.textContent = 'Harap isi email anda!'
+                emailError.classList.remove('hidden')
+                valid = false
+            }
+
+            if(pw === '') {
+                pwError.textContent = 'Harap isi password anda!'
+                pwError.classList.remove('hidden')
+                valid = false
+            } else if(pw.length < 6) {
+                pwError.textContent = 'Password kurang woi!'
+                pwError.classList.remove('hidden')
+                valid = false
+            }
+            return valid
+        }
+    </script>
+</body>
+
+</html>
