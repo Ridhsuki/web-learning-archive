@@ -26,37 +26,37 @@ You can access the deployed version of some projects here:
 ## 🌟 Featured Projects  
 
 ### **Simple Library Website**  
-📌 **Description**: A simple web Library tutorial from kelas terbuka.  
+ A simple web Library tutorial from kelas terbuka.  
 ![Student Grade Calculator](Img/screenshoot/Screenshot%20(123).png)
 
 ---
 
 ### **Student Grade Calculator**  
-📌 **Description**: A simple web app to calculate student grades using **if-else** conditions.  
+ A simple web app to calculate student grades using **if-else** conditions.  
 ![Student Grade Calculator](Img/screenshoot/Screenshot%20(124).png)  
 
 ---
 
 ### **Coffee Menu UI**  
-📌 **Description**: A simple coffee menu webpage using **HTML & CSS**, Course from Freecodecamp.org.  
+ A simple coffee menu webpage using **HTML & CSS**, Course from Freecodecamp.org.  
 ![Coffee Menu](Img/screenshoot/Screenshot%20(127).png)  
 
 ---
 
 ### **Joke API Web**  
-📌 **Description**: A small web project that fetches random jokes from an **API**.  
+ A small web project that fetches random jokes from an **API**.  
 ![Joke API Web](Img/screenshoot/Screenshot%20(125).png)  
 
 ---
 
 ### **Login Page with Tailwind CSS**  
-📌 **Description**: A responsive **login page** built using **Tailwind CSS**.  
+ A responsive **login page** built using **Tailwind CSS**.  
 ![Login Page](Img/screenshoot/Screenshot%20(126).png)  
 
 ---
 
 ### **Prayer Schedule API**  
-📌 **Description**: A web app that retrieves daily **prayer schedules** from an API.  
+ A web app that retrieves daily **prayer schedules** from an API.  
 ![Prayer Schedule](Img/screenshoot/Screenshot%20(128).png)  
 ![Prayer Schedule](Img/screenshoot/Screenshot%20(129).png)  
 
