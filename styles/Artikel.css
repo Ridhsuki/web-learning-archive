@@ -127,9 +127,6 @@ summary {
 	}
 	
 /*CSS Text*/
-.csstext{
-	Background-color:;
-}
 
 /*Font family*/
 #Arial{
@@ -286,7 +283,6 @@ sizebypx4{
 			
 /*Border Padding Margin*/
 			h1.Border-Padding-Margin{
-				border: ;
 				border-bottom-width: 4px;
 			}
 			#atas-solid{
@@ -356,7 +352,6 @@ sizebypx4{
 				text-align: center;
 				width: 150px;
 				height: 100px;
-				font-size: ;
 				text-decoration: none;
 			}
 			acronym{
@@ -445,7 +440,7 @@ sizebypx4{
 			}
 /*BOX with CSS*/
 			.box1 {
-				heigh: 100px;
+				height: 100px;
 				width: 100px;
 				background-color: #bbbbaa;
 			}
