@@ -2,6 +2,8 @@
 
 Welcome to **My Learning Archive**! This repository contains all my small projects and experiments while learning web programming from various sources, including **YouTube**, **self-learning**, and **my studies at Politeknik IDN**. 🚀  
 
+Edit: This repository will be updated when I do some experiments with html css and js.
+
 You can access the deployed version of some projects here:  
 🔗 **[Live Preview](https://my-old-learning.netlify.app/)**  
 
